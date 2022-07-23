@@ -4,21 +4,20 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-        <div className='row'>
-          <div className='col'>
-          <iframe src="http://weakstreams.com/streams/9862462"></iframe>
-          </div>
-          <div className='col'>
-          <iframe src="http://weakstreams.com/streams/9862462"></iframe>
-          </div>
+        <div id="NW">
+
         </div>
-        <div className='row'>
-          <div className='col'>
-          <iframe src="http://weakstreams.com/streams/9862462"></iframe>
-          </div>
-          <div className='col'>
-          <iframe src="http://weakstreams.com/streams/9862462"></iframe>
-          </div>
+        
+        <div id="NE">
+
+        </div>
+
+        <div id="SE">
+          
+        </div>
+
+        <div id="SW">
+
         </div>
     </div>
   );
