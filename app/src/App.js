@@ -2,47 +2,38 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const cubs_phillis = 'https://embedstream.me/philadelphia-phillies-vs-chicago-cubs-stream-1'
-  const yanks_orioles = 'https://embedstream.me/baltimore-orioles-vs-new-york-yankees-stream-2'
-  const marlins_pirates = 'https://embedstream.me/pittsburgh-pirates-vs-miami-marlins-stream-2'
-  const jays_redsoxs = 'https://embedstream.me/boston-red-sox-vs-toronto-blue-jays-stream-2'
-  const angels_braves = 'https://embedstream.me/atlanta-braves-vs-los-angeles-angels-stream-2'
-  const cardinals_reds = 'https://embedstream.me/cincinnati-reds-vs-st-louis-cardinals-stream-2'
-  const twins_tigers = 'https://embedstream.me/detroit-tigers-vs-minnesota-twins-stream-2'
-  const indians_twins = 'https://embedstream.me/chicago-white-sox-vs-cleveland-guardians-stream-2'
-  const rays_royals = 'https://embedstream.me/kansas-city-royals-vs-tampa-bay-rays-stream-1'
-  const rockies_brewers = 'https://embedstream.me/milwaukee-brewers-vs-colorado-rockies-stream-2'
-  const rangers_oakland = 'https://embedstream.me/oakland-athletics-vs-texas-rangers-stream-2'
-  const astros_mariners = 'https://embedstream.me/seattle-mariners-vs-houston-astros-stream-2'
-  const nationals_diamondbacks = 'https://embedstream.me/arizona-diamondbacks-vs-washington-nationals-stream-2'
-  const giants_dodgers = 'https://embedstream.me/los-angeles-dodgers-vs-san-francisco-giants-stream-2'
-  const padres_mets = 'https://embedstream.me/new-york-mets-vs-san-diego-padres-stream-2'
-  const pocono = 'https://embedstream.me/nascar-cup-series-m-m-s-fan-appreciation-400-vs-pocono-raceway-online-stream-2'
-
+    const royals_yankees = 'https://embedstream.me/new-york-yankees-vs-kansas-city-royals-stream-1'
+    const phillies_pirates = 'https://embedstream.me/pittsburgh-pirates-vs-philadelphia-phillies-stream-1'
+    const tigers_blue_jays = 'https://embedstream.me/toronto-blue-jays-vs-detroit-tigers-stream-1'
+    const guardians_red_sox = 'https://embedstream.me/boston-red-sox-vs-cleveland-guardians-stream-1'
+    const mariners_astros = 'https://embedstream.me/houston-astros-vs-seattle-mariners-stream-2'
+    const dodgers_rockies = 'https://embedstream.me/colorado-rockies-vs-los-angeles-dodgers-stream-2' 
+    const rangers_angels = 'https://embedstream.me/los-angeles-angels-vs-texas-rangers-stream-2'
+    const cubs_giants = 'https://embedstream.me/san-francisco-giants-vs-chicago-cubs-stream-2'
   return (
     <div className="App">
         <div id="NW">
 
-        <iframe src={padres_mets} width='100%' height='100%' scrolling='yes'
+        <iframe src={cubs_giants} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency 
          referrerpolicy='unsafe-url'></iframe>
         </div>
         
         <div id="NE">
-        <iframe src={rangers_oakland} width='100%' height='100%' scrolling='yes'
+        <iframe src={mariners_astros} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency
           referrerpolicy='unsafe-url'></iframe>
         </div>
 
         <div id="SE">
         
-        <iframe src={nationals_diamondbacks} width='100%' height='100%'
+        <iframe src={rangers_angels} width='100%' height='100%'
          scrolling='yes' frameborder='0' allowfullscreen allowtransparency
           referrerpolicy='unsafe-url'></iframe>
         </div>
 
         <div id="SW">
-        <iframe src={giants_dodgers} width='100%' height='100%' scrolling='yes'
+        <iframe src={dodgers_rockies} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency
           referrerpolicy='unsafe-url'></iframe>
         </div>
