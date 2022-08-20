@@ -25,35 +25,44 @@ function App() {
 
    /* FOOTBALL */
 
-   const panthers_patriots = 'https://embedstream.me/new-england-patriots-vs-carolina-panthers-stream-1'
-   const saints_packers = 'https://embedstream.me/green-bay-packers-vs-new-orleans-saints-stream-1'
-   const texans_rams = 'https://embedstream.me/los-angeles-rams-vs-houston-texans-stream-1'
-
+   const cheifs_commanders = 'https://embedstream.me/kansas-city-chiefs-vs-washington-commanders-stream-1'
+   const lions_colts = 'https://embedstream.me/indianapolis-colts-vs-detroit-lions-stream-1'
+   const bills_broncos = 'https://embedstream.me/buffalo-bills-vs-denver-broncos-stream-1'
+   const jags_steelers = 'https://embedstream.me/jacksonville-jaguars-vs-pittsburgh-steelers-stream-1'
+   const fins_raiders = 'https://embedstream.me/miami-dolphins-vs-las-vegas-raiders-stream-1'
+   const niners_vikings = 'https://embedstream.me/minnesota-vikings-vs-san-francisco-49ers-stream-1'
+   const titans_bucs = 'https://embedstream.me/tennessee-titans-vs-tampa-bay-buccaneers-stream-1'
+   const chargers_cowboys = 'https://embedstream.me/los-angeles-chargers-vs-dallas-cowboys-stream-1'
  
+  /* NASCAR */
+
+  const nascar = 'https://embedstream.me/nascar-xfinity-series-stream-1'
+
+
   return (
     <div className="App">
         <div id="NW">
 
-        <iframe src={rangers_athletics} width='100%' height='100%' scrolling='yes'
+        <iframe src={nascar} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency 
          referrerpolicy='unsafe-url'></iframe>
         </div>
         
         <div id="NE">
-        <iframe src={brewers_dodgers} width='100%' height='100%' scrolling='yes'
+        <iframe src={cheifs_commanders} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency
           referrerpolicy='unsafe-url'></iframe>
         </div>
 
         <div id="SE">
         
-        <iframe src={angels_mariners} width='100%' height='100%'
+        <iframe src={mets_phillies} width='100%' height='100%'
          scrolling='yes' frameborder='0' allowfullscreen allowtransparency
           referrerpolicy='unsafe-url'></iframe>
         </div>
 
         <div id="SW">
-        <iframe src={giants_diamondbacks} width='100%' height='100%' scrolling='yes'
+        <iframe src={brewers_cubs} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency
           referrerpolicy='unsafe-url'></iframe>
         </div>
