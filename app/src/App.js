@@ -7,21 +7,22 @@ function App() {
 
    /* BASEBALL */
 
-   const brewers_cubs = 'https://embedstream.me/chicago-cubs-vs-milwaukee-brewers-stream-1'
-   const redsox_orioles = 'https://embedstream.me/baltimore-orioles-vs-boston-red-sox-stream-1'
-   const mets_phillies = 'https://embedstream.me/philadelphia-phillies-vs-new-york-mets-stream-1'
-   const red_pirates = 'https://embedstream.me/pittsburgh-pirates-vs-cincinnati-reds-stream-1'
-   const bluejays_yankees = 'https://embedstream.me/new-york-yankees-vs-toronto-blue-jays-stream-1'
-   const royals_rays = 'https://embedstream.me/tampa-bay-rays-vs-kansas-city-royals-stream-1'
-   const angels_tigers = 'https://embedstream.me/detroit-tigers-vs-los-angeles-angels-stream-1'
-   const whitesox_guardians = 'https://embedstream.me/cleveland-guardians-vs-chicago-white-sox-stream-1'
-   const astros_braves = 'https://embedstream.me/atlanta-braves-vs-houston-astros-stream-1'
-   const rangers_twins = 'https://embedstream.me/minnesota-twins-vs-texas-rangers-stream-1'
-   const giants_rockies = 'https://embedstream.me/colorado-rockies-vs-san-francisco-giants-stream-1'
-   const mariners_athletics = 'https://embedstream.me/oakland-athletics-vs-seattle-mariners-stream-1'
-   const cardinals_diamondbacks = 'https://embedstream.me/arizona-diamondbacks-vs-st-louis-cardinals-stream-1'
-   const nationals_padres = 'https://embedstream.me/san-diego-padres-vs-washington-nationals-stream-1'
-   const marlines_dodgers = 'https://embedstream.me/los-angeles-dodgers-vs-miami-marlins-stream-1'
+   const pirates_bluejays = 'https://embedstream.me/pittsburgh-pirates-vs-toronto-blue-jays-stream-1'
+   const red_rockies = 'https://embedstream.me/cincinnati-reds-vs-colorado-rockies-stream-1'
+   const orioles_athletsic = 'https://embedstream.me/baltimore-orioles-vs-oakland-athletics-stream-2'
+   const redsox_rangers ='https://embedstream.me/boston-red-sox-vs-texas-rangers-stream-2'
+   const guardians_mariners = 'https://embedstream.me/cleveland-guardians-vs-seattle-mariners-stream-2'
+   const tigers_royals = 'https://embedstream.me/detroit-tigers-vs-kansas-city-royals-stream-2'
+   const mets_nationals = 'https://embedstream.me/new-york-mets-vs-washington-nationals-stream-2'
+   const rays_yankees ='https://embedstream.me/tampa-bay-rays-vs-new-york-yankees-stream-2'
+   const braves_marlins = 'https://embedstream.me/atlanta-braves-vs-miami-marlins-stream-2'
+   const whitesox_twins = 'https://embedstream.me/chicago-white-sox-vs-minnesota-twins-stream-2'
+   const cardinals_cubs = 'https://embedstream.me/st-louis-cardinals-vs-chicago-cubs-stream-2'
+   const angels_astros = 'https://embedstream.me/los-angeles-angels-vs-houston-astros-stream-2'
+   const diamondbacks_brewers = 'https://embedstream.me/arizona-diamondbacks-vs-milwaukee-brewersstream-2'
+   const dodgers_padres = 'https://embedstream.me/los-angeles-dodgers-vs-san-diego-padres-stream-2'
+   const giants_phillies = 'https://embedstream.me/san-francisco-giants-vs-philadelphia-phillies-stream-2'
+
 
    /* FOOTBALL */
 
@@ -33,6 +34,7 @@ function App() {
    const niners_vikings = 'https://embedstream.me/minnesota-vikings-vs-san-francisco-49ers-stream-1'
    const titans_bucs = 'https://embedstream.me/tennessee-titans-vs-tampa-bay-buccaneers-stream-1'
    const chargers_cowboys = 'https://embedstream.me/los-angeles-chargers-vs-dallas-cowboys-stream-1'
+   const football = 'https://embedstream.me/mnf-monday-night-football-stream-1'
  
   /* NASCAR */
 
@@ -43,26 +45,26 @@ function App() {
     <div className="App">
         <div id="NW">
 
-        <iframe src={nascar} width='100%' height='100%' scrolling='yes'
+        <iframe src={orioles_athletsic} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency 
          referrerpolicy='unsafe-url'></iframe>
         </div>
         
         <div id="NE">
-        <iframe src={cheifs_commanders} width='100%' height='100%' scrolling='yes'
+        <iframe src={rays_yankees} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency
           referrerpolicy='unsafe-url'></iframe>
         </div>
 
         <div id="SE">
         
-        <iframe src={mets_phillies} width='100%' height='100%'
+        <iframe src={pirates_bluejays} width='100%' height='100%'
          scrolling='yes' frameborder='0' allowfullscreen allowtransparency
           referrerpolicy='unsafe-url'></iframe>
         </div>
 
         <div id="SW">
-        <iframe src={brewers_cubs} width='100%' height='100%' scrolling='yes'
+        <iframe src={guardians_mariners} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency
           referrerpolicy='unsafe-url'></iframe>
         </div>
