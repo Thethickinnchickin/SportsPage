@@ -11,7 +11,7 @@ function App() {
    const red_rockies = 'https://embedstream.me/cincinnati-reds-vs-colorado-rockies-stream-1'
    const orioles_athletsic = 'https://embedstream.me/baltimore-orioles-vs-oakland-athletics-stream-2'
    const redsox_rangers ='https://embedstream.me/boston-red-sox-vs-texas-rangers-stream-2'
-   const guardians_mariners = 'https://embedstream.me/cleveland-guardians-vs-seattle-mariners-stream-2'
+   const guardians_mariners = 'https://embedstream.me/cleveland-guardians-vs-seattle-mariners-stream-1'
    const tigers_royals = 'https://embedstream.me/detroit-tigers-vs-kansas-city-royals-stream-2'
    const mets_nationals = 'https://embedstream.me/new-york-mets-vs-washington-nationals-stream-2'
    const rays_yankees ='https://embedstream.me/tampa-bay-rays-vs-new-york-yankees-stream-2'
@@ -19,7 +19,7 @@ function App() {
    const whitesox_twins = 'https://embedstream.me/chicago-white-sox-vs-minnesota-twins-stream-2'
    const cardinals_cubs = 'https://embedstream.me/st-louis-cardinals-vs-chicago-cubs-stream-2'
    const angels_astros = 'https://embedstream.me/los-angeles-angels-vs-houston-astros-stream-2'
-   const diamondbacks_brewers = 'https://embedstream.me/arizona-diamondbacks-vs-milwaukee-brewersstream-2'
+   const diamondbacks_brewers = 'https://embedstream.me/arizona-diamondbacks-vs-milwaukee-brewers-stream-2'
    const dodgers_padres = 'https://embedstream.me/los-angeles-dodgers-vs-san-diego-padres-stream-2'
    const giants_phillies = 'https://embedstream.me/san-francisco-giants-vs-philadelphia-phillies-stream-2'
 
@@ -34,7 +34,11 @@ function App() {
    const niners_vikings = 'https://embedstream.me/minnesota-vikings-vs-san-francisco-49ers-stream-1'
    const titans_bucs = 'https://embedstream.me/tennessee-titans-vs-tampa-bay-buccaneers-stream-1'
    const chargers_cowboys = 'https://embedstream.me/los-angeles-chargers-vs-dallas-cowboys-stream-1'
-   const football = 'https://embedstream.me/mnf-monday-night-football-stream-1'
+   const football = 'https://embedstream.me/western-kentucky-vs-hawai-i-stream-1'
+
+  const football2 = 'https://embedstream.me/utah-tech-vs-sacramento-state-stream-1'
+  const football3 = 'https://embedstream.me/boise-state-vs-oregon-state-stream-1'
+  const football4 = 'https://embedstream.me/kent-state-vs-washington-stream-1'
  
   /* NASCAR */
 
@@ -45,26 +49,26 @@ function App() {
     <div className="App">
         <div id="NW">
 
-        <iframe src={orioles_athletsic} width='100%' height='100%' scrolling='yes'
+        <iframe src={football4} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency 
          referrerpolicy='unsafe-url'></iframe>
         </div>
         
         <div id="NE">
-        <iframe src={rays_yankees} width='100%' height='100%' scrolling='yes'
+        <iframe src={football} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency
           referrerpolicy='unsafe-url'></iframe>
         </div>
 
         <div id="SE">
         
-        <iframe src={pirates_bluejays} width='100%' height='100%'
+        <iframe src={football2} width='100%' height='100%'
          scrolling='yes' frameborder='0' allowfullscreen allowtransparency
           referrerpolicy='unsafe-url'></iframe>
         </div>
 
         <div id="SW">
-        <iframe src={guardians_mariners} width='100%' height='100%' scrolling='yes'
+        <iframe src={football3} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency
           referrerpolicy='unsafe-url'></iframe>
         </div>
