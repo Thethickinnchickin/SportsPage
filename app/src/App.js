@@ -27,23 +27,7 @@ function App() {
     const rams_cowboys = 'https://embedstream.me/los-angeles-rams-vs-dallas-cowboys-stream-1'
     const redzone = 'https://embedstream.me/nfl-redzone-week-5-stream-1'
     
-    
 
-
-
-
-
-
-
-
-
-
-
-
-
-  /* NASCAR */
-
-  const nascar = 'https://embedstream.me/nascar-xfinity-series-stream-1'
 
 
   return (
