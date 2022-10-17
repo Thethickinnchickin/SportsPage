@@ -13,10 +13,10 @@ function App() {
 
    /* FOOTBALL */
 
-    const bills_steelers = 'https://embedstream.me/buffalo-bills-vs-pittsburgh-steelers-stream-1'
-    const browns_chargers = 'https://embedstream.me/cleveland-browns-vs-los-angeles-chargers-stream-1'
-    const jaguars_texans = 'https://embedstream.me/jacksonville-jaguars-vs-houston-texans-stream-1'
-    const vikings_bears = 'https://embedstream.me/minnesota-vikings-vs-chicago-bears-stream-1'
+    const browns_pats = 'https://embedstream.me/cleveland-browns-vs-new-england-patriots-stream-1'
+    const falcons_niners = 'https://embedstream.me/atlanta-falcons-vs-san-francisco-49ers-stream-1'
+    const jets_packers = 'https://embedstream.me/green-bay-packers-vs-new-york-jets-stream-1'
+    const bucs = 'https://embedstream.me/pittsburgh-steelers-vs-tampa-bay-buccaneers-stream-1'
     const patriots_lions = 'https://embedstream.me/new-england-patriots-vs-detroit-lions-stream-1'
     const saints_seahawks = 'https://embedstream.me/new-orleans-saints-vs-seattle-seahawks-stream-1'
     const jets_dolphins = 'https://embedstream.me/new-york-jets-vs-miami-dolphins-stream-1'
@@ -34,26 +34,26 @@ function App() {
     <div className="App">
         <div id="NW">
 
-        <iframe src={baseball} width='100%' height='100%' scrolling='yes'
+        <iframe src={browns_pats} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency 
          referrerpolicy='unsafe-url'></iframe>
         </div>
         
         <div id="NE">
-        <iframe src={cardinals_eagles} width='100%' height='100%' scrolling='yes'
+        <iframe src={falcons_niners} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency
           referrerpolicy='unsafe-url'></iframe>
         </div>
 
         <div id="SE">
         
-        <iframe src={rams_cowboys} width='100%' height='100%'
+        <iframe src={jets_packers} width='100%' height='100%'
          scrolling='yes' frameborder='0' allowfullscreen allowtransparency
           referrerpolicy='unsafe-url'></iframe>
         </div>
 
         <div id="SW">
-        <iframe src={redzone} width='100%' height='100%' scrolling='yes'
+        <iframe src={bucs} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency
           referrerpolicy='unsafe-url'></iframe>
         </div>
