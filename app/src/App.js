@@ -25,7 +25,7 @@ function App() {
     const panthers_niners = 'https://embedstream.me/carolina-panthers-vs-san-francisco-49ers-stream-1'
     const cardinals_eagles = 'https://embedstream.me//arizona-cardinals-vs-philadelphia-eagles-stream-1'
     const rams_cowboys = 'https://embedstream.me/los-angeles-rams-vs-dallas-cowboys-stream-1'
-    const redzone = 'https://embedstream.me/nfl-redzone-week-5-stream-1'
+
     
 
 
