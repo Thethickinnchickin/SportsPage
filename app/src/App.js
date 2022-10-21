@@ -7,13 +7,13 @@ function App() {
 
    /* BASEBALL */
 
-   const baseball = 'https://embedstream.me/new-york-mets-vs-san-diego-padres-stream-1'
+   const baseball = 'https://embedstream.me/houston-astros-vs-new-york-yankees-stream-1'
 
 
 
    /* FOOTBALL */
 
-    const browns_pats = 'https://embedstream.me/cleveland-browns-vs-new-england-patriots-stream-1'
+    const cardinals = 'https://embedstream.me/arizona-cardinals-vs-new-orleans-saints-stream-1'
     const falcons_niners = 'https://embedstream.me/atlanta-falcons-vs-san-francisco-49ers-stream-1'
     const jets_packers = 'https://embedstream.me/green-bay-packers-vs-new-york-jets-stream-1'
     const bucs = 'https://embedstream.me/pittsburgh-steelers-vs-tampa-bay-buccaneers-stream-1'
@@ -26,6 +26,12 @@ function App() {
     const cardinals_eagles = 'https://embedstream.me//arizona-cardinals-vs-philadelphia-eagles-stream-1'
     const rams_cowboys = 'https://embedstream.me/los-angeles-rams-vs-dallas-cowboys-stream-1'
 
+    /* HOCKEY */
+    const sharks = 'https://embedstream.me/new-york-rangers-vs-san-jose-sharks-stream-1'
+
+    /* SOCCER */
+    const soccer1 = 'https://embedstream.me/los-angeles-fc-vs-los-angeles-galaxy-stream-1'
+
     
 
 
@@ -34,26 +40,26 @@ function App() {
     <div className="App">
         <div id="NW">
 
-        <iframe src={browns_pats} width='100%' height='100%' scrolling='yes'
+        <iframe src={cardinals} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency 
          referrerpolicy='unsafe-url'></iframe>
         </div>
         
         <div id="NE">
-        <iframe src={falcons_niners} width='100%' height='100%' scrolling='yes'
+        <iframe src={sharks} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency
           referrerpolicy='unsafe-url'></iframe>
         </div>
 
         <div id="SE">
         
-        <iframe src={jets_packers} width='100%' height='100%'
+        <iframe src={baseball} width='100%' height='100%'
          scrolling='yes' frameborder='0' allowfullscreen allowtransparency
           referrerpolicy='unsafe-url'></iframe>
         </div>
 
         <div id="SW">
-        <iframe src={bucs} width='100%' height='100%' scrolling='yes'
+        <iframe src={soccer1} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency
           referrerpolicy='unsafe-url'></iframe>
         </div>
