@@ -13,26 +13,27 @@ function App() {
 
    /* FOOTBALL */
 
-    const cardinals = 'https://embedstream.me/arizona-cardinals-vs-new-orleans-saints-stream-1'
-    const falcons_niners = 'https://embedstream.me/atlanta-falcons-vs-san-francisco-49ers-stream-1'
-    const jets_packers = 'https://embedstream.me/green-bay-packers-vs-new-york-jets-stream-1'
-    const bucs = 'https://embedstream.me/pittsburgh-steelers-vs-tampa-bay-buccaneers-stream-1'
-    const patriots_lions = 'https://embedstream.me/new-england-patriots-vs-detroit-lions-stream-1'
-    const saints_seahawks = 'https://embedstream.me/new-orleans-saints-vs-seattle-seahawks-stream-1'
-    const jets_dolphins = 'https://embedstream.me/new-york-jets-vs-miami-dolphins-stream-1'
-    const bucs_falcons = 'https://embedstream.me/tampa-bay-buccaneers-vs-atlanta-falcons-stream-1'
-    const commanders_titans = 'https://embedstream.me/washington-commanders-vs-tennessee-titans-stream-1'
+    const browns = 'https://embedstream.me/baltimore-ravens-vs-cleveland-browns-stream-1'
+    const bucs = 'https://embedstream.me/carolina-panthers-vs-tampa-bay-buccaneers-stream-1'
+    const falcons = 'https://embedstream.me/cincinnati-bengals-vs-atlanta-falcons-stream-1'
+    const colts = 'https://embedstream.me/tennessee-titans-vs-indianapolis-colts-stream-1'
+    const raiders = 'https://embedstream.me/las-vegas-raiders-vs-houston-texans-stream-2'
+    const chargers = 'https://embedstream.me/los-angeles-chargers-vs-seattle-seahawks-stream-2'
+    const niners = 'https://embedstream.me/san-francisco-49ers-vs-kansas-city-chiefs-stream-2'
+    const jets = 'https://embedstream.me/denver-broncos-vs-new-york-jets-stream-2'
     const panthers_niners = 'https://embedstream.me/carolina-panthers-vs-san-francisco-49ers-stream-1'
-    const cardinals_eagles = 'https://embedstream.me//arizona-cardinals-vs-philadelphia-eagles-stream-1'
+    const steelers = 'https://embedstream.me//miami-dolphins-vs-pittsburgh-steelers-stream-1'
     const rams_cowboys = 'https://embedstream.me/los-angeles-rams-vs-dallas-cowboys-stream-1'
 
     /* HOCKEY */
-    const sharks = 'https://embedstream.me/new-york-rangers-vs-san-jose-sharks-stream-1'
+    const sharks = 'https://embedstream.me/los-angeles-clippers-vs-phoenix-suns-stream-1'
 
     /* SOCCER */
-    const soccer1 = 'https://embedstream.me/los-angeles-fc-vs-los-angeles-galaxy-stream-1'
+    const soccer1 = 'https://embedstream.me/austin-fc-vs-fc-dallas-stream-2'
 
-    
+    /* NBA */
+
+    const warriors = 'https://embedstream.me/golden-state-warriors-vs-sacramento-kings-stream-2'
 
 
 
@@ -40,13 +41,13 @@ function App() {
     <div className="App">
         <div id="NW">
 
-        <iframe src={cardinals} width='100%' height='100%' scrolling='yes'
+        <iframe src={warriors} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency 
          referrerpolicy='unsafe-url'></iframe>
         </div>
         
         <div id="NE">
-        <iframe src={sharks} width='100%' height='100%' scrolling='yes'
+        <iframe src={steelers} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency
           referrerpolicy='unsafe-url'></iframe>
         </div>
@@ -59,7 +60,7 @@ function App() {
         </div>
 
         <div id="SW">
-        <iframe src={soccer1} width='100%' height='100%' scrolling='yes'
+        <iframe src={sharks} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency
           referrerpolicy='unsafe-url'></iframe>
         </div>
