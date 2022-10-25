@@ -21,7 +21,7 @@ function App() {
     const chargers = 'https://embedstream.me/los-angeles-chargers-vs-seattle-seahawks-stream-2'
     const niners = 'https://embedstream.me/san-francisco-49ers-vs-kansas-city-chiefs-stream-2'
     const jets = 'https://embedstream.me/denver-broncos-vs-new-york-jets-stream-2'
-    const panthers_niners = 'https://embedstream.me/carolina-panthers-vs-san-francisco-49ers-stream-1'
+  
     const steelers = 'https://embedstream.me//miami-dolphins-vs-pittsburgh-steelers-stream-1'
     const rams_cowboys = 'https://embedstream.me/los-angeles-rams-vs-dallas-cowboys-stream-1'
 
