@@ -23,8 +23,10 @@ function App() {
     const eagles = 'https://embedstream.me/philadelphia-eagles-vs-tennessee-titans-stream-1'
     const redzone = 'https://embedstream.me/nfl-redzone-week-13-stream-1'
 
-    const steelers = 'https://embedstream.me//miami-dolphins-vs-pittsburgh-steelers-stream-1'
-    const rams_cowboys = 'https://embedstream.me/los-angeles-rams-vs-dallas-cowboys-stream-1'
+    const rams = 'https://embedstream.me/los-angeles-rams-vs-seattle-seahawks-stream-1'
+    const niners = 'https://embedstream.me/san-francisco-49ers-vs-miami-dolphins-stream-1'
+    const bengals = 'https://embedstream.me/cincinnati-bengals-vs-kansas-city-chiefs-stream-1'
+    const raiders = 'https://embedstream.me/las-vegas-raiders-vs-los-angeles-chargers-stream-2'
 
     /* HOCKEY */
     const sharks = 'https://embedstream.me/los-angeles-clippers-vs-phoenix-suns-stream-1'
