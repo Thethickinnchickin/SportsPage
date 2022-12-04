@@ -13,14 +13,16 @@ function App() {
 
    /* FOOTBALL */
 
-    const browns = 'https://embedstream.me/baltimore-ravens-vs-cleveland-browns-stream-1'
-    const bucs = 'https://embedstream.me/carolina-panthers-vs-tampa-bay-buccaneers-stream-1'
-    const falcons = 'https://embedstream.me/cincinnati-bengals-vs-atlanta-falcons-stream-1'
-    const colts = 'https://embedstream.me/tennessee-titans-vs-indianapolis-colts-stream-1'
-    const raiders = 'https://embedstream.me/las-vegas-raiders-vs-houston-texans-stream-2'
-    const chargers = 'https://embedstream.me/los-angeles-chargers-vs-seattle-seahawks-stream-2'
-    const niners = 'https://embedstream.me/san-francisco-49ers-vs-kansas-city-chiefs-stream-2'
-  
+    const falcons = 'https://embedstream.me/atlanta-falcons-vs-pittsburgh-steelers-stream-1'
+    const ravens = 'https://embedstream.me/baltimore-ravens-vs-denver-broncos-stream-1'
+    const bears = 'https://embedstream.me/chicago-bears-vs-green-bay-packers-stream-1'
+    const lions = 'https://embedstream.me/detroit-lions-vs-jacksonville-jaguars-stream-1'
+    const texans = 'https://embedstream.me/houston-texans-vs-cleveland-browns-stream-1'
+    const vikings = 'https://embedstream.me/minnesota-vikings-vs-new-york-jets-stream-1'
+    const giants = 'https://embedstream.me/new-york-giants-vs-washington-commanders-stream-1'
+    const eagles = 'https://embedstream.me/philadelphia-eagles-vs-tennessee-titans-stream-1'
+    const redzone = 'https://embedstream.me/nfl-redzone-week-13-stream-1'
+
     const steelers = 'https://embedstream.me//miami-dolphins-vs-pittsburgh-steelers-stream-1'
     const rams_cowboys = 'https://embedstream.me/los-angeles-rams-vs-dallas-cowboys-stream-1'
 
@@ -40,26 +42,26 @@ function App() {
     <div className="App">
         <div id="NW">
 
-        <iframe src={warriors} width='100%' height='100%' scrolling='yes'
+        <iframe src={texans} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency 
          referrerpolicy='unsafe-url'></iframe>
         </div>
         
         <div id="NE">
-        <iframe src={steelers} width='100%' height='100%' scrolling='yes'
+        <iframe src={falcons} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency
           referrerpolicy='unsafe-url'></iframe>
         </div>
 
         <div id="SE">
         
-        <iframe src={baseball} width='100%' height='100%'
+        <iframe src={redzone} width='100%' height='100%'
          scrolling='yes' frameborder='0' allowfullscreen allowtransparency
           referrerpolicy='unsafe-url'></iframe>
         </div>
 
         <div id="SW">
-        <iframe src={sharks} width='100%' height='100%' scrolling='yes'
+        <iframe src={eagles} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency
           referrerpolicy='unsafe-url'></iframe>
         </div>
