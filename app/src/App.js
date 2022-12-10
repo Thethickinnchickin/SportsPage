@@ -30,6 +30,12 @@ function App() {
 
     /* HOCKEY */
     const sharks = 'https://embedstream.me/los-angeles-clippers-vs-phoenix-suns-stream-1'
+    const kings = 'https://embedstream.me/montreal-canadiens-vs-los-angeles-kings-stream-1'
+    const penguins = 'https://embedstream.me/pittsburgh-penguins-vs-buffalo-sabres-stream-1'
+    const maple_leaves = 'https://embedstream.me/toronto-maple-leafs-vs-calgary-flames-stream-1'
+    const islanders = 'https://embedstream.me/new-york-islanders-vs-carolina-hurricanes-stream-1'
+    const canucks = 'https://embedstream.me/vancouver-canucks-vs-minnesota-wild-stream-1'
+
 
     /* SOCCER */
     const soccer1 = 'https://embedstream.me/austin-fc-vs-fc-dallas-stream-2'
@@ -37,6 +43,12 @@ function App() {
     /* NBA */
 
     const warriors = 'https://embedstream.me/golden-state-warriors-vs-sacramento-kings-stream-2'
+    const nets = 'https://embedstream.me/indiana-pacers-vs-brooklyn-nets-stream-2'
+    const clippers = 'https://embedstream.me/washington-wizards-vs-los-angeles-clippers-stream-1'
+    const cavs = 'https://embedstream.me/cleveland-cavaliers-vs-oklahoma-city-thunder-stream-1'
+    const bulls = 'https://embedstream.me/chicago-bulls-vs-dallas-mavericks-stream-1'
+    const nuggets = 'https://embedstream.me/denver-nuggets-vs-utah-jazz-stream-1'
+    const trailblazers = 'https://embedstream.me/portland-trail-blazers-vs-minnesota-timberwolves-stream-1'
 
 
 
@@ -44,26 +56,26 @@ function App() {
     <div className="App">
         <div id="NW">
 
-        <iframe src={texans} width='100%' height='100%' scrolling='yes'
+        <iframe src={clippers} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency 
          referrerpolicy='unsafe-url'></iframe>
         </div>
         
         <div id="NE">
-        <iframe src={falcons} width='100%' height='100%' scrolling='yes'
+        <iframe src={nets} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency
           referrerpolicy='unsafe-url'></iframe>
         </div>
 
         <div id="SE">
         
-        <iframe src={redzone} width='100%' height='100%'
+        <iframe src={maple_leaves} width='100%' height='100%'
          scrolling='yes' frameborder='0' allowfullscreen allowtransparency
           referrerpolicy='unsafe-url'></iframe>
         </div>
 
         <div id="SW">
-        <iframe src={eagles} width='100%' height='100%' scrolling='yes'
+        <iframe src={kings} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency
           referrerpolicy='unsafe-url'></iframe>
         </div>
