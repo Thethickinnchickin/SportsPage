@@ -51,7 +51,6 @@ function App() {
     const trailblazers = 'https://embedstream.me/portland-trail-blazers-vs-minnesota-timberwolves-stream-1'
 
 
-
   return (
     <div className="App">
         <div id="NW">
