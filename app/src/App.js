@@ -8,9 +8,6 @@ function App() {
    /* BASEBALL */
 
    const baseball = 'https://embedstream.me/houston-astros-vs-new-york-yankees-stream-1'
-
-
-
    /* FOOTBALL */
 
     const falcons = 'https://embedstream.me/atlanta-falcons-vs-pittsburgh-steelers-stream-1'
