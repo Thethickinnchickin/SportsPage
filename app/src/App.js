@@ -15,8 +15,7 @@ function App() {
     const bears = 'https://embedstream.me/chicago-bears-vs-green-bay-packers-stream-1'
     const lions = 'https://embedstream.me/detroit-lions-vs-jacksonville-jaguars-stream-1'
     const texans = 'https://embedstream.me/houston-texans-vs-cleveland-browns-stream-1'
-    const vikings = 'https://embedstream.me/minnesota-vikings-vs-new-york-jets-stream-1'
-    const giants = 'https://embedstream.me/new-york-giants-vs-washington-commanders-stream-1'
+
 
     const rams = 'https://embedstream.me/los-angeles-rams-vs-seattle-seahawks-stream-1'
     const niners = 'https://embedstream.me/san-francisco-49ers-vs-miami-dolphins-stream-1'
