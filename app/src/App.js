@@ -14,7 +14,6 @@ function App() {
     const ravens = 'https://embedstream.me/baltimore-ravens-vs-denver-broncos-stream-1'
     const bears = 'https://embedstream.me/chicago-bears-vs-green-bay-packers-stream-1'
     const lions = 'https://embedstream.me/detroit-lions-vs-jacksonville-jaguars-stream-1'
-    const texans = 'https://embedstream.me/houston-texans-vs-cleveland-browns-stream-1'
 
 
     const rams = 'https://embedstream.me/los-angeles-rams-vs-seattle-seahawks-stream-1'
