@@ -13,7 +13,7 @@ function App() {
     const falcons = 'https://embedstream.me/atlanta-falcons-vs-pittsburgh-steelers-stream-1'
     const ravens = 'https://embedstream.me/baltimore-ravens-vs-denver-broncos-stream-1'
     const bears = 'https://embedstream.me/chicago-bears-vs-green-bay-packers-stream-1'
-    const lions = 'https://embedstream.me/detroit-lions-vs-jacksonville-jaguars-stream-1'
+
 
 
     const rams = 'https://embedstream.me/los-angeles-rams-vs-seattle-seahawks-stream-1'
