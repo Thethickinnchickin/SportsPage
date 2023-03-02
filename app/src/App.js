@@ -24,8 +24,6 @@ function App() {
     const sharks = 'https://embedstream.me/los-angeles-clippers-vs-phoenix-suns-stream-1'
     const kings = 'https://embedstream.me/montreal-canadiens-vs-los-angeles-kings-stream-1'
     const penguins = 'https://embedstream.me/pittsburgh-penguins-vs-buffalo-sabres-stream-1'
-    const maple_leaves = 'https://embedstream.me/toronto-maple-leafs-vs-calgary-flames-stream-1'
-    const islanders = 'https://embedstream.me/new-york-islanders-vs-carolina-hurricanes-stream-1'
 
 
     /* SOCCER */
