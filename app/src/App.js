@@ -23,7 +23,6 @@ function App() {
     /* HOCKEY */
     const sharks = 'https://embedstream.me/los-angeles-clippers-vs-phoenix-suns-stream-1'
     const kings = 'https://embedstream.me/montreal-canadiens-vs-los-angeles-kings-stream-1'
-    const penguins = 'https://embedstream.me/pittsburgh-penguins-vs-buffalo-sabres-stream-1'
 
 
     /* SOCCER */
