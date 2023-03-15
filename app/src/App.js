@@ -36,7 +36,7 @@ function App() {
     const cavs = 'https://embedstream.me/cleveland-cavaliers-vs-oklahoma-city-thunder-stream-1'
     const bulls = 'https://embedstream.me/chicago-bulls-vs-dallas-mavericks-stream-1'
     const nuggets = 'https://embedstream.me/denver-nuggets-vs-utah-jazz-stream-1'
-    const trailblazers = 'https://embedstream.me/portland-trail-blazers-vs-minnesota-timberwolves-stream-1'
+
 
 
   return (
