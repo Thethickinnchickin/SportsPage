@@ -34,7 +34,7 @@ function App() {
     const nets = 'https://embedstream.me/indiana-pacers-vs-brooklyn-nets-stream-2'
     const clippers = 'https://embedstream.me/washington-wizards-vs-los-angeles-clippers-stream-1'
     const cavs = 'https://embedstream.me/cleveland-cavaliers-vs-oklahoma-city-thunder-stream-1'
-    const bulls = 'https://embedstream.me/chicago-bulls-vs-dallas-mavericks-stream-1'
+
 
 
 
