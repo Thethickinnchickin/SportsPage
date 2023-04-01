@@ -7,13 +7,13 @@ function App() {
 
    /* BASEBALL */
 
-   const baseball = 'https://embedstream.me/houston-astros-vs-new-york-yankees-stream-1'
+   const baseball1 = 'https://embedstream.me/houston-astros-vs-chicago-white-sox-stream-2'
+   const baseball2 = 'https://embedstream.me/st-louis-cardinals-vs-toronto-blue-jays-stream-1'
+   const baseball3 = 'https://embedstream.me/chicago-cubs-vs-milwaukee-brewers-stream-1'
    /* FOOTBALL */
 
     const falcons = 'https://embedstream.me/atlanta-falcons-vs-pittsburgh-steelers-stream-1'
     const ravens = 'https://embedstream.me/baltimore-ravens-vs-denver-broncos-stream-1'
-    const bears = 'https://embedstream.me/chicago-bears-vs-green-bay-packers-stream-1'
-
 
 
     const rams = 'https://embedstream.me/los-angeles-rams-vs-seattle-seahawks-stream-1'
@@ -41,28 +41,28 @@ function App() {
     <div className="App">
         <div id="NW">
 
-        <iframe src={clippers} width='100%' height='100%' scrolling='yes'
+        <iframe src={baseball3} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency 
          referrerpolicy='unsafe-url'></iframe>
         </div>
         
         <div id="NE">
-        <iframe src={nets} width='100%' height='100%' scrolling='yes'
+        <iframe src={baseball2} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency
           referrerpolicy='unsafe-url'></iframe>
         </div>
 
         <div id="SE">
         
-        <iframe src={maple_leaves} width='100%' height='100%'
+        <iframe src={baseball1} width='100%' height='100%'
          scrolling='yes' frameborder='0' allowfullscreen allowtransparency
           referrerpolicy='unsafe-url'></iframe>
         </div>
 
         <div id="SW">
-        <iframe src={kings} width='100%' height='100%' scrolling='yes'
+        {/* <iframe src={kings} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency
-          referrerpolicy='unsafe-url'></iframe>
+          referrerpolicy='unsafe-url'></iframe> */}
         </div>
     </div>
   );
