@@ -7,9 +7,10 @@ function App() {
 
    /* BASEBALL */
 
-   const baseball1 = 'https://embedstream.me/houston-astros-vs-chicago-white-sox-stream-2'
-   const baseball2 = 'https://embedstream.me/st-louis-cardinals-vs-toronto-blue-jays-stream-1'
-   const baseball3 = 'https://embedstream.me/chicago-cubs-vs-milwaukee-brewers-stream-1'
+   const baseball1 = 'https://embedstream.me/texas-rangers-vs-philadelphia-phillies-stream-1'
+   const baseball2 = 'https://embedstream.me/oklahoma-city-thunder-vs-phoenix-suns-stream-1'
+   const baseball3 = 'https://embedstream.me/houston-rockets-vs-los-angeles-lakers-stream-1'
+   const baseball4 = 'https://embedstream.me/oakland-athletics-vs-los-angeles-angels-stream-1'
    /* FOOTBALL */
 
     const falcons = 'https://embedstream.me/atlanta-falcons-vs-pittsburgh-steelers-stream-1'
@@ -60,7 +61,7 @@ function App() {
         </div>
 
         <div id="SW">
-        {/* <iframe src={kings} width='100%' height='100%' scrolling='yes'
+        {/* <iframe src={baseball4} width='100%' height='100%' scrolling='yes'
          frameborder='0' allowfullscreen allowtransparency
           referrerpolicy='unsafe-url'></iframe> */}
         </div>
