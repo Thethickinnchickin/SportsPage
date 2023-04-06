@@ -19,7 +19,6 @@ function App() {
 
     const rams = 'https://embedstream.me/los-angeles-rams-vs-seattle-seahawks-stream-1'
     const niners = 'https://embedstream.me/san-francisco-49ers-vs-miami-dolphins-stream-1'
-    const bengals = 'https://embedstream.me/cincinnati-bengals-vs-kansas-city-chiefs-stream-1'
 
     /* HOCKEY */
     const sharks = 'https://embedstream.me/los-angeles-clippers-vs-phoenix-suns-stream-1'
