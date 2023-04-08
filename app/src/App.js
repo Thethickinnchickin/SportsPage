@@ -14,8 +14,6 @@ function App() {
    /* FOOTBALL */
 
     const falcons = 'https://embedstream.me/atlanta-falcons-vs-pittsburgh-steelers-stream-1'
-    const ravens = 'https://embedstream.me/baltimore-ravens-vs-denver-broncos-stream-1'
-
 
     const rams = 'https://embedstream.me/los-angeles-rams-vs-seattle-seahawks-stream-1'
     const niners = 'https://embedstream.me/san-francisco-49ers-vs-miami-dolphins-stream-1'
