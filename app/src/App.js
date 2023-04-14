@@ -18,7 +18,7 @@ function App() {
     const rams = 'https://embedstream.me/los-angeles-rams-vs-seattle-seahawks-stream-1'
 
     /* HOCKEY */
-    const sharks = 'https://embedstream.me/los-angeles-clippers-vs-phoenix-suns-stream-1'
+    const sharks = 'https://embedsteam.me/los-angeles-clippers-vs-phoenix-suns-stream-1'
     const kings = 'https://embedstream.me/montreal-canadiens-vs-los-angeles-kings-stream-1'
 
 
