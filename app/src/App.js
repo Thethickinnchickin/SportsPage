@@ -7,10 +7,10 @@ function App() {
 
    /* BASEBALL */
 
-   const baseball1 = 'https://embedstream.me/new-york-yankees-vs-philadelphia-phillies-stream-1'
-   const baseball2 = 'https://embedstream.me/washington-nationals-vs-tampa-bay-rays-stream-1'
-   const baseball3 = 'https://embedstream.me/miami-marlins-vs-minnesota-twins-stream-1'
-   const baseball4 = 'https://embedstream.me/st-louis-cardinals-vs-atlanta-braves-stream-1'
+   const baseball4 = 'https://embedstream.me/los-angeles-dodgers-vs-chicago-cubs-stream-1'
+   const baseball3 = 'https://embedstream.me/seattle-mariners-vs-colorado-rockies-stream-1'
+   const baseball2 = 'https://embedstream.me/sacramento-kings-vs-golden-state-warriors-stream-1'
+   const baseball1 = 'https://embedstream.me/birmingham-stallions-vs-new-jersey-generals-stream-1'
    /* FOOTBALL */
 
     const falcons = 'https://embedstream.me/atlanta-falcons-vs-pittsburgh-steelers-stream-1'
@@ -28,7 +28,7 @@ function App() {
     /* NBA */
 
     const warriors = 'https://embedsream.me/golden-state-warriors-vs-sacramento-kings-stream-2'
-    const nets = 'https://embedstream.m/indiana-pacers-vs-brooklyn-nets-strem-2'
+    const nets = 'https://embedstream.m/indiana-pacers-vs-brooklyn-ne-strem-2'
 
 
 
