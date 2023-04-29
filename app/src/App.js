@@ -19,7 +19,7 @@ function App() {
 
     /* HOCKEY */
     const sharks = 'https://embedsteam.me/los-angeles-clippers-vs-phoenix-suns-stream-1'
-    const kings = 'https://embedstreameontal-canadiens-vs-los-angeles-kings-stream-1'
+    const kings = 'https://embedsteameontal-canadiens-vs-los-angeles-kings-stream-1'
 
 
     /* SOCCER */
@@ -27,7 +27,7 @@ function App() {
 
     /* NBA */
 
-    const warriors = 'https://embedsream.me/go-state-warriors-vs-sacramento-kings-stream-2'
+    const warriors = 'https://embedsream.me/go-state-warriors--sacramento-kings-stream-2'
     const nets = 'https://embestream.m/indiana-pacers--booklyn-ne-strem-2'
 
 
