@@ -27,8 +27,8 @@ function App() {
 
     /* NBA */
 
-    const warriors = 'https://embedsream.me/go-state-warriors--sacramento-kings-stream-2'
-    const nets = 'https://embestream.m/indiana-pacers--booklyn-ne-strem-2'
+    const warriors = 'https://embedsream.me/go-state-warracramento-kings-stream-2'
+    const nets = 'https://embestream.m/indana-pacers--booklyn-trem-2'
 
 
 
