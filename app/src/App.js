@@ -1,16 +1,16 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 
-function App() {
+export function App() {
 
 
    /* BASEBALL */
 
-   const baseball4 = 'https://embedstream.me/los-angeles-dodgers-vs-chicago-cubs-stream-1'
-   const baseball3 = 'https://embedstream.me/seattle-mariners-vs-colorado-rockies-stream-1'
-   const baseball2 = 'https://embedstream.me/sacramento-kings-vs-golden-state-warriors-stream-1'
-   const baseball1 = 'https://embedstream.me/birmingham-stallions-vs-new-jersey-generals-stream-1'
+   const baseball4 = 'https://embedstream.me/new-york-mets-vs-colorado-rockies-stream-1'
+   const baseball3 = 'https://embedstream.me/philadelphia-phillies-vs-boston-red-sox-stream-1'
+   const baseball2 = 'https://embedstream.me/tampa-bay-rays-vs-new-york-yankees-stream-1'
+   const baseball1 = 'https://embedstream.me/philadelphia-76ers-vs-boston-celtics-stream-1'
    /* FOOTBALL */
 
     const falcons = 'https://embedstream.me/atlanta-falcons-vs-pittsburgh-steelers-stream-1'
@@ -19,7 +19,7 @@ function App() {
 
     /* HOCKEY */
     const sharks = 'https://embedsteam.me/los-angeles-clippers-vs-phoenix-suns-stream-1'
-    const kings = 'https://embedsteameontal-canadiens-vs-los-angeles-kings-stream-1'
+    const kings = 'https://embedsteameontal-canadien-los-angeles-kings-stream-1'
 
 
     /* SOCCER */
@@ -38,31 +38,30 @@ function App() {
         <div id="NW">
 
         <iframe src={baseball3} width='100%' height='100%' scrolling='yes'
-         frameborder='0' allowfullscreen allowtransparency 
-         referrerpolicy='unsafe-url'></iframe>
+         frameBorder='0' allowFullScreen  
+         referrerPolicy='unsafe-url'></iframe>
         </div>
         
         <div id="NE">
         <iframe src={baseball2} width='100%' height='100%' scrolling='yes'
-         frameborder='0' allowfullscreen allowtransparency
-          referrerpolicy='unsafe-url'></iframe>
+         frameBorder='0' allowFullScreen 
+          referrerPolicy='unsafe-url'></iframe>
         </div>
 
         <div id="SE">
         
         <iframe src={baseball1} width='100%' height='100%'
-         scrolling='yes' frameborder='0' allowfullscreen allowtransparency
-          referrerpolicy='unsafe-url'></iframe>
+         scrolling='yes' frameBorder='0' allowFullScreen 
+          referrerPolicy='unsafe-url'></iframe>
         </div>
 
         <div id="SW">
         <iframe src={baseball4} width='100%' height='100%' scrolling='yes'
-         frameborder='0' allowfullscreen allowtransparency
-          referrerpolicy='unsafe-url'></iframe>
+         frameBorder='0' allowFullScreen 
+          referrerPolicy='unsafe-url'></iframe>
         </div>
     </div>
   );
 }
 
-
-
+export default App
