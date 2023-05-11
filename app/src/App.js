@@ -7,10 +7,10 @@ export function App() {
 
    /* BASEBALL */
 
-   const baseball4 = 'https://embedstream.me/new-york-mets-vs-colorado-rockies-stream-1'
-   const baseball3 = 'https://embedstream.me/philadelphia-phillies-vs-boston-red-sox-stream-1'
-   const baseball2 = 'https://embedstream.me/tampa-bay-rays-vs-new-york-yankees-stream-1'
-   const baseball1 = 'https://embedstream.me/philadelphia-76ers-vs-boston-celtics-stream-1'
+   const baseball4 = 'https://embedstream.me/kansas-city-royals-vs-chicago-white-sox-stream-1'
+   const baseball3 = 'https://embedstream.me/minnesota-twins-vs-san-diego-padres-stream-1'
+   const baseball2 = 'https://embedstream.me/chicago-cubs-vs-st-louis-cardinals-stream-1'
+   const baseball1 = 'https://embedstream.me/atlanta-braves-vs-boston-red-sox-stream-1'
    /* FOOTBALL */
 
     const falcons = 'https://embedstream.me/atlanta-falcons-vs-pittsburgh-steelers-stream-1'
