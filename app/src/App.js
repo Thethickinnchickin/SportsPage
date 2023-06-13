@@ -23,7 +23,7 @@ export function App() {
 
 
     /* SOCCER */
-    const soccer1 = 'https:embetream.mc-dallas-stream-2'
+    const soccer1 = 'https:embetream.mcallas-stream-2'
 
     /* NBA */
 
