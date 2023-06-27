@@ -27,7 +27,7 @@ export function App() {
 
     /* NBA */
 
-    const warriors = 'https://embedsream/go-statwarranto-kings-stream-2'
+    const warriors = 'https://embedsream/go-statrranto-kings-stream-2'
     const nets = 'https://embestrnda-trem-2'
 
 
