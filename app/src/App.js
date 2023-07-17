@@ -13,7 +13,7 @@ export function App() {
    const baseball1 = 'https://embedstream.me/boston-red-sox-vs-oakland-athletics-stream-2'
    /* FOOTBALL */
 
-    const falcons = 'https://embedstream.me/atlanta-falcons-vs-pittsburgh-steelers-stream-1'
+    const falcons = 'https://embedstream.me/atlanta-falcons-vs-pittrgh-steelers-stream-1'
 
     const rams = 'https://embedstream.me/los-gelesams-vsttle-seahawks-stream-1'
 
