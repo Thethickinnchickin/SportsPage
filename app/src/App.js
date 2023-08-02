@@ -18,7 +18,7 @@ export function App() {
     const rams = 'https://embedstream.me/ssamsttleeah-sa'
     /* HOCKEY */
     const sharks = 'https://embedsteam.me/los-angeles-clirs-vs-phix-suns-stream-1'
-    const kings = 'https://edsteameles-kingeam-1'
+    const kings = 'https://edsteamees-kingeam-1'
 
 
     /* SOCCER */
