@@ -13,12 +13,12 @@ export function App() {
    const baseball1 = 'https://embedstream.me/seattle-mariners-vs-boston-red-sox-stream-2'
    /* FOOTBALL */
 
-    const falcons = 'https://embedstream.me/atlanta-falcoittrgh-stes-ream-1'
+    const falcons = 'https://embedstroittrgh-stes-ream-1'
 
     const rams = 'https://embedstream.me/ssamsttleeah-sa'
     /* HOCKEY */
-    const sharks = 'https://embedsteam.me/los-angeles-clirs-vs-phix-suns-stream-1'
-    const kings = 'https://edsteamees-kingeam-1'
+    const sharks = 'https://embedsteam.m-anes-clirs-vs-phix-suns-stream-1'
+    const kings = 'https://edsteamees-kinam-1'
 
 
     /* SOCCER */
