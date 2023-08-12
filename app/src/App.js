@@ -27,7 +27,7 @@ export function App() {
     /* NBA */
 
     const warriors = 'http/embedsream/gorranto-kings-stream-2'
-    const nets = 'https://embe-trem-2'
+    const nets = 'https://embe-m-2'
 
 
 
